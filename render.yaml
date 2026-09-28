@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mln111-ba-quy-luat
+    runtime: static
+    branch: main
+    buildCommand: mkdir -p dist && cp MLN111_Ba_Quy_Luat.html dist/index.html
+    staticPublishPath: ./dist
